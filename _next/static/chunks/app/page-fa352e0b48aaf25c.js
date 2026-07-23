@@ -758,12 +758,6 @@
               href: N.ay,
               icon: (0, s.jsx)(f.FV, { className: "w-3.5 h-3.5" }),
             },
-            {
-              label: j("nav.socials.telegramGroup"),
-              description: j("nav.socials.telegramGroupDesc"),
-              href: N.C_,
-              icon: (0, s.jsx)(f.FV, { className: "w-3.5 h-3.5" }),
-            },
           ],
           T = [
             {
@@ -1510,6 +1504,18 @@
                         className:
                           "text-lg sm:text-xl text-text-secondary mt-6 max-w-xl mx-auto lg:mx-0 leading-relaxed",
                         children: n("hero.description"),
+                      }),
+                      (0, s.jsx)(d.P.p, {
+                        initial: { opacity: 0, y: 24 },
+                        animate: l ? { opacity: 1, y: 0 } : {},
+                        transition: {
+                          duration: B.O,
+                          delay: 0.35,
+                          ease: B.Nd,
+                        },
+                        className:
+                          "text-lg sm:text-xl text-text-secondary mt-2 max-w-xl mx-auto lg:mx-0 leading-relaxed whitespace-nowrap",
+                        children: "TBA",
                       }),
                       (0, s.jsxs)(d.P.div, {
                         initial: { opacity: 0, y: 24 },
@@ -3125,7 +3131,6 @@
                   href: N.Y7,
                   app: !1,
                 },
-                { label: e("footer.product.links"), href: "/links", app: !1 },
               ],
             },
             {
@@ -3139,7 +3144,6 @@
           a = [
             { Icon: f.MR, href: N.Pt, label: "X" },
             { Icon: f.FV, href: N.ay, label: e("nav.socials.telegramChannel") },
-            { Icon: f.FV, href: N.C_, label: e("nav.socials.telegramGroup") },
             { Icon: f.Bo, href: N.Y7, label: "Docs" },
           ];
         return (0, s.jsx)("footer", {
