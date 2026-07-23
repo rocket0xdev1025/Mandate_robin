@@ -130,14 +130,6 @@
                 "flex flex-wrap items-center justify-center gap-4 sm:gap-5",
               children: [
                 (0, l.jsx)(h, {
-                  href: o.oO,
-                  logo: (0, l.jsx)(x, { className: "h-8 w-8 sm:h-9 sm:w-9" }),
-                  eyebrow: e("webStatus"),
-                  name: e("webTitle"),
-                  ariaLabel: e("webAria"),
-                  featured: !0,
-                }),
-                (0, l.jsx)(h, {
                   href: c.nx,
                   logo: (0, l.jsx)(u, { className: "h-8 w-8 sm:h-9 sm:w-9" }),
                   eyebrow: e("iosStatus"),

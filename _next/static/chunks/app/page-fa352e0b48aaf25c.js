@@ -533,13 +533,7 @@
                   (0, s.jsx)("p", {
                     className: "max-w-md text-sm text-[#94a3b8]",
                     children:
-                      "The page could not finish loading. Try refreshing, or continue to the app.",
-                  }),
-                  (0, s.jsx)("a", {
-                    href: "https://app.mandate.finance",
-                    className:
-                      "rounded-xl bg-[#06b6d4] px-5 py-2.5 text-sm font-semibold text-[#020617] no-underline",
-                    children: "Open Mandate",
+                      "The page could not finish loading. Try refreshing.",
                   }),
                 ],
               })
@@ -576,7 +570,7 @@
         o = "https://t.me/MandateFinance",
         d = "https://t.me/Mandate_finance_official",
         x = "0x51cbDD4980D60A579A0793dfA28045fE751bdC9f",
-        m = "https://app.virtuals.io/virtuals/119656",
+        m = "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA",
         p =
           "https://matcha.xyz/tokens/robinhood/0x51cbdd4980d60a579a0793dfa28045fe751bdc9f?buyAddress=0x51cbdd4980d60a579a0793dfa28045fe751bdc9f&buyChain=4663&sellAddress=0x5fc5360d0400a0fd4f2af552add042d716f1d168&sellChain=4663",
         h = "https://robinhoodchain.blockscout.com/address/".concat(x),
@@ -644,31 +638,6 @@
             ref: d,
             className: (0, y.cn)("relative", n),
             children: [
-              (0, s.jsxs)("button", {
-                type: "button",
-                "aria-haspopup": "menu",
-                "aria-expanded": c,
-                "aria-controls": x,
-                onClick: () => o((e) => !e),
-                className: (0, y.cn)(
-                  "inline-flex items-center justify-center gap-2 text-sm font-medium transition-all duration-150",
-                  "bg-[var(--glass-shell)] hover:bg-[var(--glass-content)] active:scale-[0.97]",
-                  "h-10 px-3 rounded-2xl text-text-secondary hover:text-text-primary border border-[var(--border-subtle)]"
-                ),
-                children: [
-                  a,
-                  (0, s.jsx)("span", {
-                    className: (0, y.cn)(i && "hidden lg:inline"),
-                    children: t,
-                  }),
-                  (0, s.jsx)(j.A, {
-                    className: (0, y.cn)(
-                      "w-3.5 h-3.5 shrink-0 opacity-70 transition-transform",
-                      c && "rotate-180"
-                    ),
-                  }),
-                ],
-              }),
               c &&
                 (0, s.jsx)("div", {
                   id: x,
@@ -784,12 +753,6 @@
               icon: (0, s.jsx)(f.MR, { className: "w-3.5 h-3.5" }),
             },
             {
-              label: "Discord",
-              description: j("nav.socials.discordDesc"),
-              href: N.zp,
-              icon: (0, s.jsx)(f.us, { className: "w-3.5 h-3.5" }),
-            },
-            {
               label: j("nav.socials.telegramChannel"),
               description: j("nav.socials.telegramChannelDesc"),
               href: N.ay,
@@ -800,12 +763,6 @@
               description: j("nav.socials.telegramGroupDesc"),
               href: N.C_,
               icon: (0, s.jsx)(f.FV, { className: "w-3.5 h-3.5" }),
-            },
-            {
-              label: "GitHub",
-              description: j("nav.socials.githubDesc"),
-              href: N.Oe,
-              icon: (0, s.jsx)(f.Zx, { className: "w-3.5 h-3.5" }),
             },
           ],
           T = [
@@ -946,16 +903,6 @@
                             }),
                           ],
                         }),
-                        (0, s.jsx)("button", {
-                          type: "button",
-                          onClick: t,
-                          className: (0, y.cn)(
-                            "inline-flex items-center justify-center gap-2 text-sm font-semibold transition-all duration-150",
-                            "bg-accent-500 text-text-inverse hover:bg-accent-400 glow-accent active:scale-[0.97]",
-                            "h-10 px-5 rounded-2xl"
-                          ),
-                          children: j("nav.earlyAccess"),
-                        }),
                       ],
                     }),
                     (0, s.jsx)("button", {
@@ -1004,18 +951,6 @@
                               className:
                                 "flex flex-col gap-2 pt-3 mt-2 border-t border-[var(--border-subtle)]",
                               children: [
-                                (0, s.jsx)("button", {
-                                  type: "button",
-                                  onClick: () => {
-                                    l(!1), t();
-                                  },
-                                  className: (0, y.cn)(
-                                    "inline-flex items-center justify-center gap-2 text-sm font-semibold transition-all",
-                                    "bg-accent-500 text-text-inverse hover:bg-accent-400 glow-accent",
-                                    "h-11 px-4 rounded-2xl w-full"
-                                  ),
-                                  children: j("nav.earlyAccess"),
-                                }),
                                 (0, s.jsx)("p", {
                                   className:
                                     "px-1 pt-1 text-[10px] uppercase tracking-[0.16em] text-text-tertiary",
@@ -1583,23 +1518,6 @@
                         className:
                           "flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 mt-9",
                         children: [
-                          (0, s.jsx)(B.HS, {
-                            children: (0, s.jsxs)("button", {
-                              type: "button",
-                              onClick: t,
-                              className: (0, y.cn)(
-                                "inline-flex items-center justify-center gap-2.5 font-semibold transition-all duration-200",
-                                "bg-accent-500 text-text-inverse hover:bg-accent-400 active:scale-[0.97]",
-                                "h-12 px-6 sm:h-14 sm:px-8 text-base rounded-2xl"
-                              ),
-                              children: [
-                                n("hero.ctaPrimary"),
-                                (0, s.jsx)(R.A, {
-                                  className: "w-4 h-4 sm:w-5 sm:h-5",
-                                }),
-                              ],
-                            }),
-                          }),
                           (0, s.jsx)(B.HS, {
                             children: (0, s.jsxs)("a", {
                               href: N.om,
@@ -2690,10 +2608,6 @@
               photo: "/team/kura.jpg",
               avatarGradient: "from-accent-500 via-cyan-500 to-emerald-500",
               roleColor: "text-accent-300",
-              socials: {
-                linkedin: "https://www.linkedin.com/in/roee-oren-499359357",
-                x: "https://x.com/Kurapika_DeFi",
-              },
             },
             {
               key: "andrea",
@@ -2704,10 +2618,6 @@
               photo: "/team/andrea.jpg",
               avatarGradient: "from-indigo-500 via-violet-500 to-fuchsia-500",
               roleColor: "text-violet-300",
-              socials: {
-                linkedin: "https://www.linkedin.com/in/andrea-ritondale",
-                x: "https://x.com/Andrea0x_eth",
-              },
             },
             {
               key: "kai",
@@ -2718,10 +2628,6 @@
               photo: "/team/kai.jpg",
               avatarGradient: "from-amber-500 via-orange-500 to-rose-500",
               roleColor: "text-amber-300",
-              socials: {
-                linkedin: "https://www.linkedin.com/in/kai-shin-aw",
-                x: "https://x.com/AwKaiShin",
-              },
             },
           ];
         return (0, s.jsx)("section", {
@@ -3189,24 +3095,6 @@
                     }),
                   }),
                   (0, s.jsx)(B.Tc, {
-                    className: "w-full flex justify-center",
-                    children: (0, s.jsx)(B.HS, {
-                      children: (0, s.jsxs)("button", {
-                        type: "button",
-                        onClick: t,
-                        className: (0, y.cn)(
-                          "inline-flex items-center justify-center gap-2.5 font-semibold transition-all duration-200",
-                          "bg-accent-500 text-text-inverse hover:bg-accent-400 active:scale-[0.97]",
-                          "h-14 px-8 text-base sm:h-16 sm:px-12 sm:text-lg rounded-2xl glow-accent-strong"
-                        ),
-                        children: [
-                          a("cta.button"),
-                          (0, s.jsx)(R.A, { className: "w-5 h-5" }),
-                        ],
-                      }),
-                    }),
-                  }),
-                  (0, s.jsx)(B.Tc, {
                     className: "w-full",
                     children: (0, s.jsx)("p", {
                       className: "mt-4 text-xs text-text-tertiary",
@@ -3241,15 +3129,6 @@
               ],
             },
             {
-              title: e("footer.token.title"),
-              links: [
-                { label: e("footer.token.virtuals"), href: N.om, app: !1 },
-                { label: e("footer.token.trade"), href: N.aT, app: !1 },
-                { label: e("footer.token.blockscout"), href: N.RJ, app: !1 },
-                { label: e("footer.token.robinscan"), href: N.Du, app: !1 },
-              ],
-            },
-            {
               title: e("footer.legal.title"),
               links: [
                 { label: e("footer.legal.privacy"), href: "/privacy", app: !1 },
@@ -3259,11 +3138,9 @@
           ],
           a = [
             { Icon: f.MR, href: N.Pt, label: "X" },
-            { Icon: f.us, href: N.zp, label: "Discord" },
             { Icon: f.FV, href: N.ay, label: e("nav.socials.telegramChannel") },
             { Icon: f.FV, href: N.C_, label: e("nav.socials.telegramGroup") },
             { Icon: f.Bo, href: N.Y7, label: "Docs" },
-            { Icon: f.Zx, href: N.Oe, label: "GitHub" },
           ];
         return (0, s.jsx)("footer", {
           className: "relative z-10 px-4 sm:px-6 pb-6 pt-8",
@@ -3295,7 +3172,7 @@
                       }),
                       (0, s.jsx)(B.fv, {
                         className:
-                          "flex-1 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8",
+                          "flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8",
                         staggerDelay: 0.11,
                         viewport: { amount: 0.12 },
                         children: t.map((e) =>
@@ -3572,7 +3449,6 @@
             (sessionStorage.removeItem("locale-changed"),
             window.scrollTo(0, 0));
         }, []);
-        let e = () => window.open(n.oO, "_blank", "noopener,noreferrer");
         return (0, s.jsxs)("main", {
           id: "main-content",
           className: "relative min-h-dvh overflow-x-hidden pb-24 sm:pb-28",
@@ -3588,8 +3464,8 @@
             }),
             (0, s.jsxs)(ej, {
               children: [
-                (0, s.jsx)(P, { onJoinWaitlist: e }),
-                (0, s.jsx)(q, { onJoinWaitlist: e }),
+                (0, s.jsx)(P, {}),
+                (0, s.jsx)(q, {}),
                 (0, s.jsx)(ev, {}),
                 (0, s.jsx)(G, {}),
                 (0, s.jsx)(F, {}),
@@ -3600,7 +3476,7 @@
                 (0, s.jsx)(er, {}),
                 (0, s.jsx)(ei, {}),
                 (0, s.jsx)(ed, {}),
-                (0, s.jsx)(em, { onJoinWaitlist: e }),
+                (0, s.jsx)(em, {}),
                 (0, s.jsx)(ef, {}),
                 (0, s.jsx)(eb, {}),
                 (0, s.jsx)(ex, {}),
