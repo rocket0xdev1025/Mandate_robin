@@ -566,11 +566,11 @@
       let l = "https://mandate.gitbook.io/",
         n = "https://discord.gg/24X4TtKtZm",
         i = "https://github.com/Mandate-Finance",
-        c = "https://x.com/Mandate_AI",
+        c = "https://x.com/MandateRBH",
         o = "https://t.me/MandateFinance",
-        d = "https://t.me/Mandate_finance_official",
+        d = "https://t.me/MandateRBH",
         x = "0x51cbDD4980D60A579A0793dfA28045fE751bdC9f",
-        m = "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=TBA",
+        m = "https://app.uniswap.org/swap?chain=robinhood&outputCurrency=0xDD7Fb0321e843ea1344715A8AB36f49124076d1b",
         p =
           "https://matcha.xyz/tokens/robinhood/0x51cbdd4980d60a579a0793dfa28045fe751bdc9f?buyAddress=0x51cbdd4980d60a579a0793dfa28045fe751bdc9f&buyChain=4663&sellAddress=0x5fc5360d0400a0fd4f2af552add042d716f1d168&sellChain=4663",
         h = "https://robinhoodchain.blockscout.com/address/".concat(x),
@@ -1515,7 +1515,7 @@
                         },
                         className:
                           "text-lg sm:text-xl text-text-secondary mt-2 max-w-xl mx-auto lg:mx-0 leading-relaxed whitespace-nowrap",
-                        children: "TBA",
+                        children: "0xDD7Fb0321e843ea1344715A8AB36f49124076d1b",
                       }),
                       (0, s.jsxs)(d.P.div, {
                         initial: { opacity: 0, y: 24 },
